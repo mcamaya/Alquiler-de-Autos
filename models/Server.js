@@ -15,6 +15,10 @@ class Server {
         await databaseConnection();
     }
 
+    routing(routes){
+        this.app.use('/api/v1', routes);
+    }
+
     middlewares(){
         this.app.use(express.json());
         this.app.use(cors());

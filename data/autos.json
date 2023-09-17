@@ -1,0 +1,212 @@
+[
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3c"
+      },
+      "modelo": "Mercedes-Benz S-Class",
+      "marca": "Mercedes-Benz",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 250,
+      "precioHora": 30
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3d"
+      },
+      "modelo": "BMW 7 Series",
+      "marca": "BMW",
+      "año": 2021,
+      "activo": true,
+      "precioDia": 230,
+      "precioHora": 28
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      },
+      "modelo": "Audi A8",
+      "marca": "Audi",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 240,
+      "precioHora": 29
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      },
+      "modelo": "Lexus LS",
+      "marca": "Lexus",
+      "año": 2023,
+      "activo": true,
+      "precioDia": 260,
+      "precioHora": 32
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c40"
+      },
+      "modelo": "Porsche Panamera",
+      "marca": "Porsche",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 280,
+      "precioHora": 34
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c41"
+      },
+      "modelo": "Jaguar XJ",
+      "marca": "Jaguar",
+      "año": 2023,
+      "activo": true,
+      "precioDia": 255,
+      "precioHora": 31
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c42"
+      },
+      "modelo": "Bentley Continental GT",
+      "marca": "Bentley",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 350,
+      "precioHora": 42
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c43"
+      },
+      "modelo": "Rolls-Royce Phantom",
+      "marca": "Rolls-Royce",
+      "año": 2021,
+      "activo": true,
+      "precioDia": 450,
+      "precioHora": 55
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c44"
+      },
+      "modelo": "Ferrari 488",
+      "marca": "Ferrari",
+      "año": 2023,
+      "activo": true,
+      "precioDia": 600,
+      "precioHora": 75
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c45"
+      },
+      "modelo": "Lamborghini Aventador",
+      "marca": "Lamborghini",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 700,
+      "precioHora": 85
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c46"
+      },
+      "modelo": "Maserati Quattroporte",
+      "marca": "Maserati",
+      "año": 2023,
+      "activo": true,
+      "precioDia": 320,
+      "precioHora": 40
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c47"
+      },
+      "modelo": "Aston Martin DB11",
+      "marca": "Aston Martin",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 380,
+      "precioHora": 46
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c48"
+      },
+      "modelo": "McLaren 720S",
+      "marca": "McLaren",
+      "año": 2023,
+      "activo": true,
+      "precioDia": 650,
+      "precioHora": 80
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c49"
+      },
+      "modelo": "Bugatti Chiron",
+      "marca": "Bugatti",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 1000,
+      "precioHora": 120
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c4a"
+      },
+      "modelo": "Tesla Model S",
+      "marca": "Tesla",
+      "año": 2023,
+      "activo": true,
+      "precioDia": 350,
+      "precioHora": 42
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c4b"
+      },
+      "modelo": "Acura NSX",
+      "marca": "Acura",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 280,
+      "precioHora": 34
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c4c"
+      },
+      "modelo": "Lexus LC",
+      "marca": "Lexus",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 300,
+      "precioHora": 36
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c4d"
+      },
+      "modelo": "Porsche 911 Turbo",
+      "marca": "Porsche",
+      "año": 2023,
+      "activo": true,
+      "precioDia": 400,
+      "precioHora": 48
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c4e"
+      },
+      "modelo": "Jaguar F-Type",
+      "marca": "Jaguar",
+      "año": 2022,
+      "activo": true,
+      "precioDia": 320,
+      "precioHora": 40
+    }
+  ]
+  
