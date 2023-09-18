@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 
 const AlquilerSchema = new Schema({
-    fechaInicio: {
+    /* fechaInicio: {
         type: String,
         required: [true, 'El modelo del auto es obligatorio'],
         trim: true
@@ -11,9 +11,11 @@ const AlquilerSchema = new Schema({
         required: [true, 'La marca del auto es obligatoria'],
         trim: true,
         unique: true
-    },
+    }, */
+    cantidadDias: Number,
+    cantidadHoras: Number,
     precioTotal: {
-        type: String,
+        type: Number,
         required: [true, 'El precio total del alquiler del auto es obligatorio'],
     },
     cliente: {
@@ -26,13 +28,17 @@ const AlquilerSchema = new Schema({
         ref: 'empleados',
         required: [true, 'El empleado que realiza el alquiler es obligatorio'],
     },
-    finalizado: {
-        type: Boolean,
-        default: false
+    estado: {
+        type: String,
+        default: 'Pendiente' //Pendiente, activo, finalizado
     },
     sucursal: {
         type: Schema.Types.ObjectId,
         ref: 'sucursales'
+    },
+    auto: {
+        type: Schema.Types.ObjectId,
+        ref: 'autos'
     }
 },
 {

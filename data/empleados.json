@@ -1,0 +1,149 @@
+[
+    {
+      "nombre": "Ana López",
+      "dni": 123456789,
+      "email": "ana.lopez@example.com",
+      "password": "clave123",
+      "cargo": "Gerente",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3c"
+      },
+      "fechaContratacion": "2022-01-15"
+    },
+    {
+      "nombre": "Carlos Rodríguez",
+      "dni": 987654321,
+      "email": "carlos.rodriguez@example.com",
+      "password": "contraseña123",
+      "cargo": "Vendedor",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3d"
+      },
+      "fechaContratacion": "2022-03-20"
+    },
+    {
+      "nombre": "Laura González",
+      "dni": 555555555,
+      "email": "laura.gonzalez@example.com",
+      "password": "clave456",
+      "cargo": "Recepcionista",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      },
+      "fechaContratacion": "2022-04-10"
+    },
+    {
+      "nombre": "Pedro Martínez",
+      "dni": 333333333,
+      "email": "pedro.martinez@example.com",
+      "password": "password123",
+      "cargo": "Vendedor",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      },
+      "fechaContratacion": "2022-02-28"
+    },
+    {
+      "nombre": "Lucía Sánchez",
+      "dni": 444444444,
+      "email": "lucia.sanchez@example.com",
+      "password": "clave789",
+      "cargo": "Gerente",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c40"
+      },
+      "fechaContratacion": "2022-05-05"
+    },
+    {
+      "nombre": "Javier Ramírez",
+      "dni": 222222222,
+      "email": "javier.ramirez@example.com",
+      "password": "contraseña456",
+      "cargo": "Recepcionista",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c41"
+      },
+      "fechaContratacion": "2022-06-15"
+    },
+    {
+      "nombre": "Isabel Pérez",
+      "dni": 888888888,
+      "email": "isabel.perez@example.com",
+      "password": "clave999",
+      "cargo": "Vendedor",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c42"
+      },
+      "fechaContratacion": "2022-03-10"
+    },
+    {
+      "nombre": "María Martínez",
+      "dni": 666666666,
+      "email": "maria.martinez@example.com",
+      "password": "password789",
+      "cargo": "Gerente",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c43"
+      },
+      "fechaContratacion": "2022-07-20"
+    },
+    {
+      "nombre": "Luis Sánchez",
+      "dni": 555555555,
+      "email": "luis.sanchez@example.com",
+      "password": "clave666",
+      "cargo": "Vendedor",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c44"
+      },
+      "fechaContratacion": "2022-04-05"
+    },
+    {
+      "nombre": "Marta Rodríguez",
+      "dni": 777777777,
+      "email": "marta.rodriguez@example.com",
+      "password": "password555",
+      "cargo": "Recepcionista",
+      "activo": true,
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c45"
+      },
+      "fechaContratacion": "2022-08-12"
+    },
+    {
+        "nombre": "Juan Gómez",
+        "dni": 111111111,
+        "email": "juan.gomez@example.com",
+        "password": "clave111",
+        "cargo": "Vendedor",
+        "activo": false,
+        "sucursal": {
+            "$oid": "65065814b8116e94df8a1c46"
+        },
+        "fechaContratacion": "2022-04-20",
+        "fechaTerminacion": "2022-09-15"
+    },
+    {
+        "nombre": "Elena Pérez",
+        "dni": 999999999,
+        "email": "elena.perez@example.com",
+        "password": "clave999",
+        "cargo": "Recepcionista",
+        "activo": false,
+        "sucursal": {
+            "$oid": "65065814b8116e94df8a1c47"
+        },
+        "fechaContratacion": "2022-03-10",
+        "fechaTerminacion": "2022-08-30"
+    }
+  ]
+  

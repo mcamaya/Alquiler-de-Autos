@@ -1,0 +1,123 @@
+[
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3d"
+      },
+      "nombre": "Juan Pérez",
+      "dni": 123456789,
+      "tipoDocumento": "Cédula de Ciudadanía",
+      "activo": true,
+      "celular": 987654321,
+      "email": "juan.perez@example.com",
+      "direccion": "Calle 123, Ciudad Ejemplo"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      },
+      "nombre": "María Rodríguez",
+      "dni": 987654321,
+      "tipoDocumento": "Pasaporte",
+      "activo": true,
+      "celular": 123456789,
+      "email": "maria.rodriguez@example.com",
+      "direccion": "Avenida 456, Otra Ciudad"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      },
+      "nombre": "Luis González",
+      "dni": 555555555,
+      "tipoDocumento": "Cédula de Ciudadanía",
+      "activo": true,
+      "celular": 999888777,
+      "email": "luis.gonzalez@example.com",
+      "direccion": "Calle Principal, Ciudad Principal"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c40"
+      },
+      "nombre": "Ana Martínez",
+      "dni": 333333333,
+      "tipoDocumento": "Pasaporte",
+      "activo": true,
+      "celular": 777888999,
+      "email": "ana.martinez@example.com",
+      "direccion": "Avenida Secundaria, Ciudad Secundaria"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c41"
+      },
+      "nombre": "Carlos Sánchez",
+      "dni": 444444444,
+      "tipoDocumento": "Cédula de Ciudadanía",
+      "activo": true,
+      "celular": 888999777,
+      "email": "carlos.sanchez@example.com",
+      "direccion": "Calle de la Esquina, Ciudad Pequeña"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c42"
+      },
+      "nombre": "Laura García",
+      "dni": 777777777,
+      "tipoDocumento": "Pasaporte",
+      "activo": true,
+      "celular": 666666666,
+      "email": "laura.garcia@example.com",
+      "direccion": "Avenida Grande, Ciudad Grande"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c43"
+      },
+      "nombre": "Pedro López",
+      "dni": 111111111,
+      "tipoDocumento": "Cédula de Ciudadanía",
+      "activo": true,
+      "celular": 555555555,
+      "email": "pedro.lopez@example.com",
+      "direccion": "Calle Peatonal, Ciudad Peatonal"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c44"
+      },
+      "nombre": "Lucía Fernández",
+      "dni": 999999999,
+      "tipoDocumento": "Pasaporte",
+      "activo": true,
+      "celular": 333333333,
+      "email": "lucia.fernandez@example.com",
+      "direccion": "Avenida Central, Ciudad Central"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c45"
+      },
+      "nombre": "Javier Ramírez",
+      "dni": 222222222,
+      "tipoDocumento": "Cédula de Ciudadanía",
+      "activo": true,
+      "celular": 666777888,
+      "email": "javier.ramirez@example.com",
+      "direccion": "Calle Principal, Ciudad Principal"
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c46"
+      },
+      "nombre": "Isabel Pérez",
+      "dni": 888888888,
+      "tipoDocumento": "Pasaporte",
+      "activo": true,
+      "celular": 111222333,
+      "email": "isabel.perez@example.com",
+      "direccion": "Avenida Peatonal, Ciudad Peatonal"
+    }
+  ]
+  
