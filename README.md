@@ -13,9 +13,34 @@ GET /api/v1/clientes
 GET /api/v1/autos
 ```
 
+#### 4. Listar todos los alquileres activos junto con los datos de los clientes relacionados.
+```http
+GET /api/v1/alquileres/activos
+```
+
+#### 5. Mostrar todas las reservas pendientes con los datos del cliente y el automóvil reservado.
+```http
+GET /api/v1/alquileres/pendientes
+```
+
+#### 6. Obtener los detalles del alquiler con el ID_Alquiler específico.
+```http
+GET /api/v1/alquileres/${id_alquiler}
+```
+
 #### 7. Listar los empleados con el cargo de "Vendedor".
 ```http
 GET /api/v1/empleados/vendedores
+```
+
+#### 8. Mostrar la cantidad total de automóviles disponibles en cada sucursal.
+```http
+GET /api/v1/sucursales
+```
+
+#### 9. Obtener el costo total de un alquiler específico.
+```http
+GET /api/v1/alquileres/calcular-precio?auto=${automovil_oId}&horas=${numero_horas}&dias=${numero_dias}
 ```
 
 #### 10. Listar los clientes con el DNI específico.

@@ -1,0 +1,233 @@
+[
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3c"
+      },
+      "fechaInicio": "2023-07-15T09:00:00Z",
+      "fechaFinal": "2023-07-20T09:00:00Z",
+      "cantidadDias": 5,
+      "cantidadHoras": 0,
+      "precioTotal": 600,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c3d"
+      },
+      "empleado": {
+        "$oid": "6507b365b8116e94df8a1c50"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3c"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c3c"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3d"
+      },
+      "fechaInicio": "2023-08-10T14:30:00Z",
+      "fechaFinal": "2023-08-13T14:30:00Z",
+      "cantidadDias": 3,
+      "cantidadHoras": 0,
+      "precioTotal": 450,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3d"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c3d"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      },
+      "fechaInicio": "2023-09-05T10:15:00Z",
+      "fechaFinal": "2023-09-12T10:15:00Z",
+      "cantidadDias": 7,
+      "cantidadHoras": 0,
+      "precioTotal": 900,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c3e"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      },
+      "fechaInicio": "2023-06-20T08:00:00Z",
+      "fechaFinal": "2023-06-22T08:00:00Z",
+      "cantidadDias": 2,
+      "cantidadHoras": 0,
+      "precioTotal": 300,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c40"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c40"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c3f"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c40"
+      },
+      "fechaInicio": "2023-05-18T15:45:00Z",
+      "fechaFinal": "2023-05-22T15:45:00Z",
+      "cantidadDias": 4,
+      "cantidadHoras": 0,
+      "precioTotal": 480,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c41"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c41"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c40"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c40"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c41"
+      },
+      "fechaInicio": "2023-04-12T11:30:00Z",
+      "fechaFinal": "2023-04-18T11:30:00Z",
+      "cantidadDias": 6,
+      "cantidadHoras": 0,
+      "precioTotal": 720,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c42"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c42"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c41"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c41"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c42"
+      },
+      "fechaInicio": "2023-03-03T17:20:00Z",
+      "fechaFinal": "2023-03-04T17:20:00Z",
+      "cantidadDias": 1,
+      "cantidadHoras": 0,
+      "precioTotal": 120,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c43"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c43"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c42"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c42"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c43"
+      },
+      "fechaInicio": "2023-02-25T12:10:00Z",
+      "fechaFinal": "2023-03-05T12:10:00Z",
+      "cantidadDias": 8,
+      "cantidadHoras": 0,
+      "precioTotal": 960,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c44"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c44"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c43"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c43"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c44"
+      },
+      "fechaInicio": "2023-01-20T16:50:00Z",
+      "fechaFinal": "2023-01-22T16:50:00Z",
+      "cantidadDias": 2,
+      "cantidadHoras": 0,
+      "precioTotal": 240,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c45"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c45"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c44"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c44"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65065814b8116e94df8a1c45"
+      },
+      "fechaInicio": "2023-12-05T13:45:00Z",
+      "fechaFinal": "2023-12-10T13:45:00Z",
+      "cantidadDias": 5,
+      "cantidadHoras": 0,
+      "precioTotal": 600,
+      "cliente": {
+        "$oid": "65065814b8116e94df8a1c46"
+      },
+      "empleado": {
+        "$oid": "65065814b8116e94df8a1c46"
+      },
+      "estado": "Pendiente",
+      "sucursal": {
+        "$oid": "65065814b8116e94df8a1c45"
+      },
+      "auto": {
+        "$oid": "65065814b8116e94df8a1c45"
+      }
+    }
+  ]
+  

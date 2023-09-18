@@ -1,17 +1,14 @@
 import { Schema, model } from "mongoose";
 
 const AlquilerSchema = new Schema({
-    /* fechaInicio: {
+    fechaInicio: {
         type: String,
-        required: [true, 'El modelo del auto es obligatorio'],
         trim: true
     },
     fechaFinal: {
         type: String,
-        required: [true, 'La marca del auto es obligatoria'],
-        trim: true,
-        unique: true
-    }, */
+        trim: true
+    },
     cantidadDias: Number,
     cantidadHoras: Number,
     precioTotal: {
