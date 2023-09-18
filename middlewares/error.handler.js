@@ -11,9 +11,9 @@ export const isBoomError = (error, req, res, next) => {
     next(error);
 }
 
-export const errorHandler = (error, req, res) => {
+export const errorHandler = (error, req, res, next) => {
     res.status(500).json({
         error: error.message,
         stack: error.stack
-    })
+    });
 }   

@@ -21,10 +21,10 @@ const AutoSchema = new Schema({
         default: true
     },
     precioDia: Number,
-    precioHora: Number
+    precioHora: Number,
+    capacidad: Number
 },
 {
-    timestamps: true,
     versionKey: false
 })
 
