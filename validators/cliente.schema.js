@@ -19,8 +19,7 @@ export const createClienteSchema = Joi.object({
     direccion: direccion.required(),
     celular: celular.required(),
     email: email.required(),
-    tipoDocumento: tipoDocumento.required(),
-
+    tipoDocumento
 });
 
 export const updateClienteSchema = Joi.object({

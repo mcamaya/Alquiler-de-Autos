@@ -8,6 +8,9 @@ const router = Router();
 router.get('/activos', service.getAllActivos);
 router.get('/pendientes', service.getAllPendientes);
 router.get('/calcular-precio', service.calcularPrecio);
+router.get('/julio-05', service.alquileresJulio05);
+router.get('/julio-05-10', service.alquileresJulio05Julio10);
+router.get('/pendientes/:idCliente', service.getAllPendientesByID);
 
 // CRUD básico
 router.get('/', service.getAll);

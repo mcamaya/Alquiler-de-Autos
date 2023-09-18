@@ -1,5 +1,6 @@
 import boom from "@hapi/boom";
 import Cliente from "../models/Cliente.js";
+import Alquiler from "../models/Alquiler.js";
 
 export const getOneByDNI = async (req, res, next) => {
     try {
@@ -20,6 +21,22 @@ export const getOneByDNI = async (req, res, next) => {
 export const getAll = async (req, res, next) => {
     try {
         const data = await Cliente.find();
+        res.status(200).json(data);
+    } catch (error) {
+        next(error);
+    }
+}
+
+// 15.Obtener los datos de los clientes que realizaron almenos un alquiler.
+export const clientesHanReservado = async (req, res, next) => {
+    try {
+        const clientesEnAlquileres = await Alquiler.find().distinct('cliente');
+        console.log(clientesEnAlquileres);
+        const data = await Cliente.aggregate([
+            {$match: {
+                $or: returnObj(clientesEnAlquileres)
+            }}
+        ]);
         res.status(200).json(data);
     } catch (error) {
         next(error);
@@ -81,3 +98,11 @@ export const update = async (req, res, next) => {
     }
 }
 
+
+function returnObj(arr) {
+    let clientesArray = [];
+    arr.forEach(e => {
+        clientesArray.push({_id: e});
+    });
+    return clientesArray;
+}

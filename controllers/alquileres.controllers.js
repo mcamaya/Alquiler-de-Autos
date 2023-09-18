@@ -59,6 +59,57 @@ export const calcularPrecio = async (req, res, next) => {
     }
 }
 
+// 12. Obtener los detalles del alquiler que tiene fecha de inicio en '2023-07-05'.
+export const alquileresJulio05 = async (req, res, next) => {
+    try {
+        const fecha = new Date('2023-07-05').toISOString();
+        const data = await Alquiler.find({fechaInicio: {$gte: fecha}})
+        res.status(200).json(data);
+    } catch (error) {
+        next(error);
+    }
+}
+
+// 21. Listar los alquileres con fecha de inicio entre '2023-07-05' y '2023-07-10'.
+export const alquileresJulio05Julio10 = async (req, res, next) => {
+    try {
+        const fecha1 = new Date('2023-07-05').toISOString();
+        const fecha2 = new Date('2023-07-10').toISOString();
+        const data = await Alquiler.aggregate([
+            {
+                $match: {
+                    fechaInicio: {$gte: fecha1}, 
+                    fechaFinal: {$lte: fecha2}
+                }
+            }
+        ]);
+        res.status(200).json(data);
+    } catch (error) {
+        next(error);
+    }
+}
+
+// 13. Listar las reservas pendientes realizadas por un cliente específico.
+export const getAllPendientesByID = async (req, res, next) => {
+    try {
+        const {idCliente} = req.params;
+        console.log(idCliente);
+        const data = await Alquiler.find({estado: "Pendiente", cliente: idCliente})
+            .populate('cliente', '-_id nombre dni email')
+            .populate('auto', '-_id modelo marca año')
+            .populate('empleado', '-_id nombre cargo')
+            .populate('sucursal', '-_id ciudad direccion');
+
+        if(data == false){
+            throw boom.notFound('ID cliente no tiene reservar pendientes');
+        }
+
+        res.status(200).json(data);
+    } catch (error) {
+        next(error);
+    }
+}
+
 export const getAll = async (req, res, next) => {
     try {
         const data = await Alquiler.find()

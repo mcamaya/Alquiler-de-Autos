@@ -6,6 +6,7 @@ import joiValidator from "../middlewares/joi.validates.js";
 const router = Router();
 
 router.get('/docs/:dni', service.getOneByDNI);
+router.get('/han-reservado', service.clientesHanReservado);
 
 // CRUD básico
 router.get('/', service.getAll);

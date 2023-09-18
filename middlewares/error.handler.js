@@ -16,4 +16,4 @@ export const errorHandler = (error, req, res, next) => {
         error: error.message,
         stack: error.stack
     });
-}   
+}
